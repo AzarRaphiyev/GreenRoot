@@ -2,7 +2,7 @@ import React from 'react'
 
 function TreeForm() {
   return (
-    <div className="min-h-screen max-w-[600px] w-full mx-auto mt-10 px-4">
+    <div className="min-h-screen max-w-[600px] w-full mx-auto my-10 px-4">
     {/* Başlıq */}
     <div className="w-full mx-auto flex flex-col gap-[16px]">
       <h3 className="poppins-regular text-[#000]/60 text-[24px] md:text-[30px] text-center leading-[32px] md:leading-[36px]">
