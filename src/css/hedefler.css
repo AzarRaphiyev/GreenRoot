@@ -1,0 +1,24 @@
+
+  
+  #hedef_sec .swiper {
+    width: 95%;
+    height: 648px;
+  }
+  
+  #hedef_sec .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #hedef_sec .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
