@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function MainPageBanner() {
   return (
@@ -15,9 +16,9 @@ function MainPageBanner() {
         Hər fidan bir xatirə, hər xatirə bir həyat.
       </h1>
       <button className='bg-[#157424] rounded-[8px] md:w-[208px] w-[180px] md:h-[56px] h-[48px] text-white poppins-semibold'>
-        <p className='text-white poppins-semibold md:w-[100px] w-auto mx-auto md:text-[16px] text-[14px]'>
+        <Link to={"xerite"} className='text-white poppins-semibold md:w-[100px] w-auto mx-auto md:text-[16px] text-[14px]'>
           İndi ağac ək
-        </p>
+        </Link>
       </button>
     </div>    
   </div>
